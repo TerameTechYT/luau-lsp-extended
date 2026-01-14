@@ -3,7 +3,7 @@ set(CMAKE_OSX_ARCHITECTURES "arm64;x86_64" CACHE STRING "")
 
 option(LUAU_ENABLE_TIME_TRACE "Build with Luau TimeTrace" OFF)
 option(LSP_BUILD_ASAN "Build with ASAN" OFF)
-option(LSP_STATIC_CRT "Link with the static CRT (/MT)" OFF)
+option(LSP_STATIC_CRT "Link with the static CRT (/MT)" ON)
 option(LSP_BUILD_WITH_SENTRY "Build with Sentry (crash reporting)" OFF)
 option(LSP_WERROR "Warnings as errors" ON)
 

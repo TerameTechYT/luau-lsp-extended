@@ -1,6 +1,7 @@
-[submodule "luau"]
-	path = luau
-	url = https://github.com/TerameTechYT/luau-extended.git
 [submodule "extern/sentry-native"]
 	path = extern/sentry-native
 	url = https://github.com/getsentry/sentry-native.git
+[submodule "luau"]
+	path = luau
+	url = https://github.com/TerameTechYT/luau-extended.git
+	branch = master
